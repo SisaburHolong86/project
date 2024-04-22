@@ -78,8 +78,31 @@ font-size:30px;
     justify-content: center;
     align-items: center;
  }
-
- .h1-footer{
-font-size: 40px;
-color: white;
+ .olo{
+   color: rgb(1, 73, 109);
+   background-color: rgb(10, 237, 245);
  }
+ .hlo{
+   background-color: rgb(2, 63, 100);
+   color: rgb(255, 255, 255);
+   width: 100%;
+    height: 30vh;
+    text-align: left;
+ }
+ .ya{
+   background-color: rgb(154, 232, 236);
+   width: 90%;
+   height: 30px;
+   color: rgb(5, 99, 102);
+   font-size:15px;
+   border-radius: 8px;
+   text-align: left;
+   
+ }
+
+
+ 
+
+
+
+

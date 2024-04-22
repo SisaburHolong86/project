@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <li class="hlo">
+    <h1>Formulir Pendaftaran
+    <br> STMIK KAPUTAMA T.A 2024/2025 </h1>
+    <br>
+    <h3>Pastikan kembali data yang anda isi sudah benar semua & lengkap sebelum melanjutkan.</h3>
+   <h3 class="ya"> Perhatian! field yang bertanda bintang * berarti wajib diisi.</h3>
+  </li>
+  <div class="container">
+        <br><h1 class="olo">Data Diri</h1></br>
+        <form action="#">
+            <div class="form-group">
+                <label for="nik">NIK:</label>
+                <input type="text" id="nik" name="nik" required>
+            </div>
+            <div class="form-group">
+                <label for="nama_lengkap">Nama Lengkap:</label>
+                <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+            </div>
+            <div class="form-group">
+                <label for="tempat_lahir">Tempat/Tanggal Lahir:</label>
+                <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+            </div>
+            <div class="form-group">
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" checked>
+                <label for="laki-laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <input type="radio" id="Menikah" name="Status" value="Menikah" checked>
+                <label for="Menikah">menikah</label>
+                <input type="radio" id="Belum menikah" name="Status" value="Belum menikah">
+                <label for="Belum menikah">Belum menikah</label>
+            </div>
+            <div class="form-group">
+                <label for="agama">Agama:</label>
+                <input type="radio" id="Islam" name="Agama" value="Islam" checked>
+                <label for="Islam">Islam</label>
+                <input type="radio" id="Katolik" name="Agama" value="Katolik">
+                <label for="Katolik">Katolik</label>
+                <input type="radio" id="Budha" name="Agama" value="Budha">
+                <label for="Budha">Budha</label>
+                <input type="radio" id="Protestan" name="Agama" value="Protestan">
+                <label for="Protestan">Protestan</label>
+                <input type="radio" id="Hindu" name="Agama" value="Hindu">
+                <label for="Hindu">Hindu</label>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <form action="#">
+          <div class="form-group">
+            <label for="alat_transportasi">Alat Transportasi:</label>
+            <select id="alat_transportasi" name="alat_transportasi">
+              <option value="">Pilih...</option>
+              <option value="Jalan kaki">Jalan kaki</option>
+              <option value="Sepeda motor">Sepeda motor</option>
+              <option value="Mobil">Mobil</option>
+              <option value="Angkutan umum">Angkutan umum</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="jenis_tinggal">Jenis Tinggal:</label>
+            <select id="jenis_tinggal" name="jenis_tinggal">
+              <option value="">Pilih...</option>
+              <option value="Sendiri">Sendiri</option>
+              <with>Bersama orang tua</option>
+              <option value="Bersama keluarga">Bersama keluarga</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="penerima_kps">Penerima KPS:</label>
+            <input type="radio" id="ya" name="penerima_kps" value="ya">
+            <label for="ya">Ya</label>
+            <input type="radio" id="tidak" name="penerima_kps" value="tidak" checked>
+            <label for="tidak">Tidak</label>
+          </div>
+          <div class="form-group">
+            <label for="kewarganegaraan">Kewarganegaraan:</label>
+            <select id="kewarganegaraan" name="kewarganegaraan">
+              <option value="">Pilih...</option>
+              <option value="WNI">WNI</option>
+              <option value="WNA">WNA</option>
+            </select>
+          </div>
+        </form>
+
+        <div class="container">
+              <div class="form-group">
+                <label for="alamat">Alamat Lengkap (Sesuai KTP):</label>
+                <textarea id="alamat" name="alamat" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="rt_rw">RT/RW:</label>
+                <input type="text" id="rt" name="rt" style="width: 30px;" required> / 
+                <input type="text" id="rw" name="rw" style="width: 30px;" required>
+              </div>
+              <div class="form-group">
+                <label for="kode_pos">Kode Pos:</label>
+                <input type="text" id="kode_pos" name="kode_pos" required>
+              </div>
+               <div class="form-group">
+                <label for="Dusun">Dusun:</label>
+                <input type="text" id="Dusun" name="Dusun" required>
+              </div>
+              <div class="form-group">
+                <label for="npwp">NPWP:</label>
+                <input type="text" id="npwp" name="npwp" required>
+              </div>
+              <div class="form-group">
+                <label for="Jalan">Jalan:</label>
+                <input type="text" id="Jalan" name="Jalan" required>
+              </div>
+
+              <div class="form-group">
+                <label for="kelurahan">Kelurahan/Desa:</label>
+                <input type="text" id="kelurahan" name="kelurahan" required>
+              </div>
+              <div class="form-group">
+                <label for="kecamatan">Kecamatan:</label>
+                <input type="text" id="kecamatan" name="kecamatan" required>
+              </div>
+              <div class="form-group">
+                <label for="telp">Telepon/HP:</label>
+                <input type="text" id="telp" name="telp" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+            </form>
+          </div>
+      <div class="form-group">
+        <label for="asal_sekolah">Asal Sekolah:</label>
+        <input type="text" id="asal_sekolah" name="asal_sekolah" required>
+      </div>
+      <div class="form-group">
+        <label for="nisn">NISN:</label>
+        <input type="text" id="nisn" name="nisn" required>
+      </div>
+      <div class="form-group">
+        <label for="jurusan">Jurusan:</label>
+        <input type="text" id="jurusan" name="jurusan" required>
+        <label for="Alamat">Alamat:</label>
+        <input type="text" id="Alamat" name="Alamat" required>
+      </div>
+    </form>
+  </div>
+  <div class="form-group">
+    <label for="program_studi">Program Studi:</label>
+    <select id="program_studi" name="program_studi">
+      <option value="">Pilih...</option>
+      <option value="Teknik Informatika">Teknik Informatika</option>
+      <option value="Sistem Informasi">Sistem Informasi</option>
+      <option value="Manajemen Informatika">Manajemen Informatika</option>
+      <option value="Komputerisasi Akuntansi">Komputerisasi Akuntansi</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="waktu_belajar">Waktu Belajar:</label>
+    <input type="radio" id="pagi" name="waktu_belajar" value="pagi">
+    <label for="pagi">Pagi</label>
+    <input type="radio" id="sore" name="waktu_belajar" value="sore">
+    <label for="Sore">sore</label>
+    <label for="Pilihan kelas">Pilihan kelas:</label>
+    <input type="radio" id="Reguler" name="Pilihan kelas" value="Reguler">
+    <label for="Reguler">Reguler</label>
+    <input type="radio" id="Kryawan" name="Pilihan kelas" value="Kryawan">
+    <label for="Kryawan">Kryawan</label>
+    <input type="radio" id="kip_kuliah" name="Pilihan kelas" value="Kip_kuliah">
+    <label for="Kip_kuliah">Kip_kuliah</label>
+    <input type="radiod
+
+
+ 
+    
+</body>
+</html>
