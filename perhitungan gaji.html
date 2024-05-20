@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Perhitungan Gaji</title>
+</head>
+<body>
+    <h1>Perhitungan Gaji</h1>
+    <form id="formGaji">
+        <label for="namaPegawai">Nama Pegawai:</label>
+        <input type="text" id="namaPegawai" name="namaPegawai" required>
+        <br>
+        <label for="jamKerja">Jam Kerja (Hari):</label>
+        <input type="number" id="jamKerja" name="jamKerja" min="1" required>
+        <br>
+        <label for="jamLembur">Jam Lembur:</label>
+        <input type="number" id="jamLembur" name="jamLembur" min="0" required>
+        <br>
+        <button type="button" onclick="hitungGaji()">Hitung</button>
+        <br>
+        <p>Gaji Total: <span id="gajiTotal"></span></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

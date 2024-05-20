@@ -101,6 +101,421 @@ font-size:30px;
  }
 
 
+
+ body {
+   font-family: 'Montserrat';
+   
+ }
+
+
+ .container {
+   position: relative;
+   max-width: 100%;
+   width: 100%;
+   padding: 27px;
+
+ }
+
+
+ 
+
+ label {
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+
+ form {
+   padding: 20px 50px;
+ }
+
+ form .input-box {
+   width: 100%;
+   margin-top: 20px;
+
+ }
+
+ form .input-min {
+   width: 100%;
+   margin-top: 20px;
+   padding-left: 30px;
+
+ }
+
+ 
+
+ form .column {
+   width: 100%;
+   height: 90px;
+   display: flex;
+   column-gap: 30px;
+ }
+
+ 
+ 
+
+ form .col-md-3 {
+   width: 365px;
+
+ }
+
+ 
+
+ 
+
+ body {
+   background-color: rgb(25, 66, 104);
+   width: 970px;
+ }
+
+ 
+ 
+ h1 {
+   color: aliceblue;
+   margin-left: 80px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   font-size: 40px;
+   padding-top: 10px;
+ }
+
+ h2 {
+   color: aliceblue;
+   margin-left: 80px;
+   margin-top: -20px;
+   margin-right: 10px;
+   font-size: 13px;
+   width: 100px;
+   background-color: rgb(13, 202, 240);
+   box-sizing: border-box;
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 5px;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 5px;
+   padding-bottom: 3.5px;
+   padding-left: 7px;
+   padding-top: 4.2px;
+ }
+
+ .text1 {
+   color: aliceblue;
+   font-size: 18px;
+   margin-left: 80px;
+   margin-top: -30px;
+ }
+
+ .text2 {
+   color: rgb(5, 92, 109);
+   background-color: rgb(191, 229, 238);
+   margin: 16px 80px 8px;
+   height: 60px;
+   width: 1300px;
+   box-sizing: border-box;
+   margin-bottom: 30px;
+   padding-bottom: 16px;
+   padding-top: 20px;
+   padding-left: 16px;
+   padding-right: 16px;
+   border-radius: 5px;
+   font-size: 15px;
+ }
+
+ .isi {
+   background-color: rgb(255, 255, 255);
+   background-size: cover;
+   position: absolute;
+   width: 1520px;
+ 
+ }
+
+ .atas {
+   color: rgb(8, 121, 144);
+   background-color: rgb(207, 244, 252);
+   width: 1325px;
+   box-sizing: border-box;
+   margin-top: -25px;
+   margin-right: 60px;
+   margin-left: 35px;
+   padding-top: 16px;
+   padding-left: 20px;
+   padding-bottom: 15px;
+   border-radius: 6px;
+   font-size: 40px;
+  
+ }
+
+
+
+
+
+
+
+
+ select {
+   margin-top: 10px;
+   width: 630px;
+   height: 35px;
+   margin-bottom: 40px;
+ }
+
+
+
+ #menikah {
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-bottom: 40px;
+
+ }
+
+ #belum_menikah {
+   margin-left: 270px;
+   margin-right: 10px;
+ }
+
+ #islam {
+   margin-top: 2px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+
+ #protestan {
+   margin-left: 298px;
+   margin-right: 10px;
+ }
+
+ #katolik {
+   margin-left: 230px;
+   margin-right: 10px;
+ }
+
+ #hindu {
+   margin-left: 230px;
+   margin-right: 10px;
+ }
+
+ #budha {
+   padding-top: 10px;
+   margin-right: 10px;
+
+ }
+
+ #jenis_tinggal {
+   padding-left: 4px;
+   margin-left: -20px;
+   margin-top: 0px;
+   width: 94%;
+ }
+
+ #alat_transportasi {
+   width: 635px;
+   padding-left: 4px;
+   margin-top: 0px;
+ }
+
+
+
+ #nama {
+   margin-right: 20px;
+   margin-left: -30px;
+ }
+
+
+
+ #alamat {
+   padding-bottom: 2.5%;
+   width: 1310px;
+   margin-top: 10px;
+ }
+
+ .form-group {
+   padding-left: 30px;
+ }
+
+ .input-box {
+   width: 15px;
+   margin-left: 70px;
+ }
+
+
+
+
+
+ 
+
+ .jw {
+   margin-left: -60px;
+   width: 716px;
+   padding-left: -80px;
+ }
+
+ #jurusan {
+   width: 50%;
+ }
+
+ #p1 {
+
+   margin-bottom: 40px;
+   margin-right: 10px;
+ }
+
+ #p3 {
+   
+   margin-bottom: 40px;
+   margin-right: 10px;
+ }
+
+ #p2 {
+   margin-left: 80px;
+   margin-right: 10px;
+ }
+
+ #i1 {
+   margin-right: 10px;
+ }
+
+ #i3 {
+   margin-top: -10px;
+   margin-bottom: 40px;
+   margin-right: 10px;
+ }
+
+ #i2 {
+   margin-left: 80px;
+   margin-right: 10px;
+ }
+
+ .prodi {
+   padding-top: 30px;
+   padding-left: 30px;
+ }
+
+ .wb {
+   padding-top: 1px;
+   padding-left: 30px;
+ }
+
+ #s2 {
+   margin-left: 227px;
+   margin-right: 10px;
+ }
+
+ #ql1 {
+  
+   margin-bottom: 40px;
+   margin-right: 10px;
+ }
+
+ #ql2 {
+   margin-left: 200px;
+   margin-right: 10px;
+ }
+
+ #ql3 {
+   margin-left: 170px;
+   margin-right: 10px;
+ }
+
+ .container1 {
+   padding-left: 40px;
+   flex-direction: column;
+
+ }
+
+ .bar {
+   background-color: rgb(207, 244, 252);
+   padding: 10px;
+   width: 1325px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   height: 99px;
+   margin-left: -30px;
+   border-radius: 5px;
+   border-color: #074aad;
+ }
+
+ #table1 {
+   margin-right: 60px;
+   border-radius: 50px;
+ }
+
+ .text {
+   float: left;
+   color: #087990;
+   font-size: 18px;
+   margin-top: 13px;
+   margin-left: -60px;
+   padding-left: 5%;
+ }
+
+ #ad {
+   margin-top: 10px;
+   height: 30px;
+   margin-bottom: 40px;
+ }
+
+ #place {
+   height: 30px;
+   width: 450px;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   margin-right: 20px;
+ }
+
+ #date {
+   height: 30px;
+   width: 850px;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   padding-left: 10px;
+   font-weight: bold;
+   font-size: 15px;
+ }
+
+ #alamat {
+   margin-top: 10px;
+   margin-bottom: 40px;
+   height: 80px;
+   width: 1330px;
+ }
+
+ 
+
+
+
+   #formOrtu {
+     display: none;
+ }
+
+ #formWali {
+     display: none;
+ }
+
+ #penghasilan-ayah{
+   height: 40px;
+ }
+
+ .end{
+   margin-left: 55px;
+   margin-top: -60px;
+ }
+ .end-button{
+   margin-left: 55px;
+   margin-top: 20px;
+ }
+ .form2{
+   margin-left: 15px;
+ }
+ #btn-back{
+   background-color: #ffc107;
+   font-size: 20px;
+   border-radius: 6px;
+   padding-left: 13px;
+   padding-right: 13px;
+   padding-bottom: 13px;
+   padding-top: 8px;
+   margin-left: 80px;
+ }
+
+
  
 
 

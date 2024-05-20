@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Syarat Penerimaan Pegawai</title>
+</head>
+<body>
+    <h1>Syarat Penerimaan Pegawai</h1>
+    <form id="formSyarat">
+        <label for="jenisKelamin">Jenis Kelamin:</label>
+        <select id="jenisKelamin" name="jenisKelamin">
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+        <br>
+        <label for="tinggiBadan">Tinggi Badan (cm):</label>
+        <input type="number" id="tinggiBadan" name="tinggiBadan" min="100" required>
+        <br>
+        <label for="beratBadan">Berat Badan (kg):</label>
+        <input type="number" id="beratBadan" name="beratBadan" min="1" required>
+        <br>
+        <label for="ipk">IPK:</label>
+        <input type="number" id="ipk" name="ipk" step="0.01" min="0" max="4" required>
+        <br>
+        <label for="pendidikan">Pendidikan:</label>
+        <select id="pendidikan" name="pendidikan">
+            <option value="D3">D3</option>
+            <option value="S1">S1</option>
+        </select>
+        <br>
+        <button type="button" onclick="cekSyarat()">Cek Syarat</button>
+        <br>
+        <p id="hasilSyarat"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
